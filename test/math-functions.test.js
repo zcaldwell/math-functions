@@ -38,7 +38,7 @@ test('sumArrayWithThreeNumbers', (assert) => {
     const result = sumArrayWithThreeNumbers([2, 3, 4]);
 
     assert.equal(result[0], 9);
-    assert.equal(result[1], 'The numbers 2,3,4 have a sum of 9.');
+    assert.equal(result[1], '2,3,4 was passed in as an array of numbers, and 9 is their sum.');
 });
 
 test('multiplyArrayWithThreeNumbers', (assert) => {
