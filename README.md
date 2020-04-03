@@ -11,18 +11,14 @@ Here are a couple of things to keep in mind:
 * Create a new branch for each code problem, and merge each branch into *master* on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time you merge a pull request, then make a new branch from master for the next problem.
 
 `git checkout -b my-branch`
---
 `ACP`
---
 `make pull request`
---
-`merge pull request IF TESTS PASS`
---
+`merge pull request`
 `git checkout master`
---
 `git pull origin master`
---
 `git checkout -b my-next-branch`
+
+### After all PRs are merged, make sure tests pass in travis before submitting
 
 * Although this is an individual lab assignment, do feel free to (heck, it is *encouraged* that you) collaborate and work in pairs or groups.
 
