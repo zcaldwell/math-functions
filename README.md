@@ -20,7 +20,7 @@ git pull origin master
 git checkout -b my-next-branch
 ```
 
-### After all PRs are merged, make sure tests pass in travis before submitting
+### After all PRs are merged, make sure tests pass in CI before submitting
 
 * Although this is an individual lab assignment, do feel free to (heck, it is *encouraged* that you) collaborate and work in pairs or groups.
 
@@ -32,4 +32,4 @@ not change anything in the test files, though you should take a look at it to se
 
 Make sure your *master* branch is up to date with your most recent code. Create a new pull request on GitHub from your master branch to the master branch of the alchemycodelab fork, making sure that the left dropdown `base repository` says `alchemycodelab/math-functions` and the right dropdown `head repository` says `<your github username>/math-functions`
 
-Make sure your PR passes travis!
+Make sure your PR passes CI!
