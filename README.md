@@ -1,5 +1,7 @@
 # Math Functions on Branches
 
+## Step 1 is to fork this repo!
+
 ### Writing Code On Branches
 
 Today in lab you will fork and clone a GitHub repo, and then create solutions to some code problems such that your solutions pass the included tests.
