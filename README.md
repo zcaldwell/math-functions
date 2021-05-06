@@ -15,6 +15,8 @@ Here are a couple of things to keep in mind:
 Here is where the PR should show up when you `git push -u origin sum`
 ![](./PR.png)
 
+---
+
 Here is where the tests should run when you make your PR
 ![](./CI.png)
 
