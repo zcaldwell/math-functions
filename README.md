@@ -23,6 +23,7 @@ Here is where the tests should run when you make your PR
 ```bash
 git checkout -b my-branch
 ACP
+(you may need to run `git push origin -u <your-branch-name>` to get it to the remote)
 make pull request
 merge pull request
 git checkout master
