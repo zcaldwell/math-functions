@@ -31,7 +31,6 @@ export function multiply(a, b) {
     const multiply = a * b;
     const str = `The product of ${a} and ${b} is ${multiply}.`;
     return [multiply, str];
-
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
